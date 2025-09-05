@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', function () {
             animateLightning();
         }
 
-        const delay = 6000 + Math.random() * 7000;
+        const delay = Math.random() * 15000 + 5000;
         setTimeout(triggerLightning, delay);
     }
 
